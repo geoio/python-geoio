@@ -105,7 +105,7 @@ class GeoioClient(object):
             :Returns:
                 A `Dictionary` with the result of the API-Call
         """
-        if type(query) is str:
+        if type(query) is str or type(query) is unicode:
             result = self._api_query("geocoding", {"query":query})
         elif type(query) is list:
             request_body = []
