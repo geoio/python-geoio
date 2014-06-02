@@ -6,7 +6,7 @@ Python bindings for the geo.io API. (http://geo.io)
 ##Installation 
 You can install the package from pypi:
 ```
-pip install python-figo
+pip install python-geoio
 ```
 Or from source:
 ```
